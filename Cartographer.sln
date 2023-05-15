@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cartographer", "Cartographer.csproj", "{17AB15AA-AA4C-4110-A91C-FF11A8387C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{5933A76F-A9A2-4F96-9B2F-E1E9019107A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Frogs.Console", "..\Example.Frogs.Console\Example.Frogs.Console.csproj", "{36C1F438-C018-4FB7-987A-C09606876B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Frogs.Application", "..\Example.Frogs.Application\Example.Frogs.Application.csproj", "{D6D768D4-7D2D-444D-A207-FFEDC737103F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Frogs.Data", "..\Example.Frogs.Data\Example.Frogs.Data.csproj", "{1E0BCC95-6610-4C39-A8EA-4CFE941C091D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Frogs.Application.Tests", "..\Example.Frogs.Tests\Example.Frogs.Application.Tests.csproj", "{6E8755F9-4022-40D4-82A4-69DA1281B717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17AB15AA-AA4C-4110-A91C-FF11A8387C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AB15AA-AA4C-4110-A91C-FF11A8387C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AB15AA-AA4C-4110-A91C-FF11A8387C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AB15AA-AA4C-4110-A91C-FF11A8387C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C1F438-C018-4FB7-987A-C09606876B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C1F438-C018-4FB7-987A-C09606876B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C1F438-C018-4FB7-987A-C09606876B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C1F438-C018-4FB7-987A-C09606876B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D768D4-7D2D-444D-A207-FFEDC737103F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D768D4-7D2D-444D-A207-FFEDC737103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D768D4-7D2D-444D-A207-FFEDC737103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D768D4-7D2D-444D-A207-FFEDC737103F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0BCC95-6610-4C39-A8EA-4CFE941C091D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0BCC95-6610-4C39-A8EA-4CFE941C091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0BCC95-6610-4C39-A8EA-4CFE941C091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0BCC95-6610-4C39-A8EA-4CFE941C091D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8755F9-4022-40D4-82A4-69DA1281B717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8755F9-4022-40D4-82A4-69DA1281B717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8755F9-4022-40D4-82A4-69DA1281B717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8755F9-4022-40D4-82A4-69DA1281B717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36C1F438-C018-4FB7-987A-C09606876B22} = {5933A76F-A9A2-4F96-9B2F-E1E9019107A4}
+		{D6D768D4-7D2D-444D-A207-FFEDC737103F} = {5933A76F-A9A2-4F96-9B2F-E1E9019107A4}
+		{1E0BCC95-6610-4C39-A8EA-4CFE941C091D} = {5933A76F-A9A2-4F96-9B2F-E1E9019107A4}
+		{6E8755F9-4022-40D4-82A4-69DA1281B717} = {5933A76F-A9A2-4F96-9B2F-E1E9019107A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D65A20E-60DE-432A-AC6C-AAB712F8BADF}
+	EndGlobalSection
+EndGlobal
