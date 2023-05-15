@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ALBS.PondService.Client" Version="2.22.3" />
+		<PackageReference Include="ALBS.WeatherService.Client" Version="1.3.3-rc2" />
+		<PackageReference Include="ALBS.GroupChatService.Client" Version="0.11.2-beta.00423" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ALBS.FrogService.Domain\ALBS.FrogService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

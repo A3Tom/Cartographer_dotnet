@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
-var baseDir = "C:\\TestFiles\\FrogService";
+var baseDir = "C:\\Repositories\\projects\\Cartographer_dotnet\\TestFiles\\FrogService";
 var csprojFiles = Directory.GetFiles(baseDir, "ALBS.*.*.csproj", SearchOption.AllDirectories);
 
 var pkgInfos = csprojFiles.Select(Scan);

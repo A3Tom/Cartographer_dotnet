@@ -1,0 +1,46 @@
+[
+    {
+        "ProjectName": "ALBS.FrogService.Data",
+        "ServiceId": "FrogService",
+        "FriendlyName": "Frog Service",
+        "InternalServices": [
+            {
+                "PackageName": "ALBS.PondService.Client",
+                "ServiceId": "PondService",
+                "FriendlyName": "Pond Service",
+                "Version": "2.22.3"
+            },
+            {
+                "PackageName": "ALBS.WeatherService.Client",
+                "ServiceId": "WeatherService",
+                "FriendlyName": "Weather Service",
+                "Version": "1.3.3-rc2"
+            },
+            {
+                "PackageName": "ALBS.GroupChatService.Client",
+                "ServiceId": "GroupChatService",
+                "FriendlyName": "Group Chat Service",
+                "Version": "0.11.2-beta.00423"
+            }
+        ]
+    },
+    {
+        "ProjectName": "ALBS.PondService.Data",
+        "ServiceId": "PondService",
+        "FriendlyName": "Pond Service",
+        "InternalServices": [
+            {
+                "PackageName": "ALBS.FoodService.Client",
+                "ServiceId": "FoodService",
+                "FriendlyName": "Food Service",
+                "Version": "2.0.1"
+            },
+            {
+                "PackageName": "ALBS.LilypadService.Client",
+                "ServiceId": "LilypadService",
+                "FriendlyName": "Lilypad Service",
+                "Version": "1.1.1"
+            }
+        ]
+    }
+]
